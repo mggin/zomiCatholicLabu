@@ -14,6 +14,12 @@
 		006188BC1E425A9600BE0882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006188BA1E425A9600BE0882 /* LaunchScreen.storyboard */; };
 		006188C71E425A9700BE0882 /* zomiCatholicLabuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188C61E425A9700BE0882 /* zomiCatholicLabuTests.swift */; };
 		006188D21E425A9700BE0882 /* zomiCatholicLabuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188D11E425A9700BE0882 /* zomiCatholicLabuUITests.swift */; };
+		006188E21E42602600BE0882 /* controlSQLData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188E11E42602600BE0882 /* controlSQLData.swift */; };
+		006188E41E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 006188E31E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite */; };
+		006188E61E428FA500BE0882 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188E51E428FA500BE0882 /* FirstViewController.swift */; };
+		1F6F679D73584BFEA3581A34 /* Pods_zomiCatholicLabu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CDFBAFE104396C530084E2 /* Pods_zomiCatholicLabu.framework */; };
+		951CC884ACBD80490C0D5ED5 /* Pods_zomiCatholicLabuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9154173A6C0B2DF100ADB255 /* Pods_zomiCatholicLabuUITests.framework */; };
+		9B686F0B32019134956ED93C /* Pods_zomiCatholicLabuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A134E3BB5130F29DE95EB2E /* Pods_zomiCatholicLabuTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,18 @@
 		006188CD1E425A9700BE0882 /* zomiCatholicLabuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zomiCatholicLabuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		006188D11E425A9700BE0882 /* zomiCatholicLabuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zomiCatholicLabuUITests.swift; sourceTree = "<group>"; };
 		006188D31E425A9700BE0882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006188E11E42602600BE0882 /* controlSQLData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controlSQLData.swift; sourceTree = "<group>"; };
+		006188E31E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = dataOfZomiCatholicLabu.sqlite; path = ../../dataOfZomiCatholicLabu.sqlite; sourceTree = "<group>"; };
+		006188E51E428FA500BE0882 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0F9FB433CA9DC29C77F2FC22 /* Pods-zomiCatholicLabu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomiCatholicLabu.release.xcconfig"; path = "Pods/Target Support Files/Pods-zomiCatholicLabu/Pods-zomiCatholicLabu.release.xcconfig"; sourceTree = "<group>"; };
+		1EC99E9CE4FD4BB2B0BF76DA /* Pods-zomiCatholicLabuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomiCatholicLabuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zomiCatholicLabuUITests/Pods-zomiCatholicLabuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47916088008790D7BA4B41C1 /* Pods-zomiCatholicLabuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomiCatholicLabuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zomiCatholicLabuTests/Pods-zomiCatholicLabuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A134E3BB5130F29DE95EB2E /* Pods_zomiCatholicLabuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zomiCatholicLabuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4BC94E018EE192F4A3B4CC /* Pods-zomiCatholicLabu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomiCatholicLabu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zomiCatholicLabu/Pods-zomiCatholicLabu.debug.xcconfig"; sourceTree = "<group>"; };
+		7595FF8DC7927BA15B1501B5 /* Pods-zomiCatholicLabuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomiCatholicLabuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zomiCatholicLabuUITests/Pods-zomiCatholicLabuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9154173A6C0B2DF100ADB255 /* Pods_zomiCatholicLabuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zomiCatholicLabuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CDFBAFE104396C530084E2 /* Pods_zomiCatholicLabu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zomiCatholicLabu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A970C07E27C34CA91DDA1876 /* Pods-zomiCatholicLabuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomiCatholicLabuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zomiCatholicLabuTests/Pods-zomiCatholicLabuTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6F679D73584BFEA3581A34 /* Pods_zomiCatholicLabu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B686F0B32019134956ED93C /* Pods_zomiCatholicLabuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951CC884ACBD80490C0D5ED5 /* Pods_zomiCatholicLabuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				006188C51E425A9700BE0882 /* zomiCatholicLabuTests */,
 				006188D01E425A9700BE0882 /* zomiCatholicLabuUITests */,
 				006188AF1E425A9600BE0882 /* Products */,
+				6F28E5D021A96D8952C8917A /* Pods */,
+				59EEBDA588C4969F65779F6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +121,14 @@
 			isa = PBXGroup;
 			children = (
 				006188B11E425A9600BE0882 /* AppDelegate.swift */,
+				006188E11E42602600BE0882 /* controlSQLData.swift */,
 				006188B31E425A9600BE0882 /* ViewController.swift */,
+				006188E51E428FA500BE0882 /* FirstViewController.swift */,
 				006188B51E425A9600BE0882 /* Main.storyboard */,
 				006188B81E425A9600BE0882 /* Assets.xcassets */,
 				006188BA1E425A9600BE0882 /* LaunchScreen.storyboard */,
 				006188BD1E425A9600BE0882 /* Info.plist */,
+				006188E31E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite */,
 			);
 			path = zomiCatholicLabu;
 			sourceTree = "<group>";
@@ -125,6 +151,29 @@
 			path = zomiCatholicLabuUITests;
 			sourceTree = "<group>";
 		};
+		59EEBDA588C4969F65779F6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1CDFBAFE104396C530084E2 /* Pods_zomiCatholicLabu.framework */,
+				4A134E3BB5130F29DE95EB2E /* Pods_zomiCatholicLabuTests.framework */,
+				9154173A6C0B2DF100ADB255 /* Pods_zomiCatholicLabuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F28E5D021A96D8952C8917A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B4BC94E018EE192F4A3B4CC /* Pods-zomiCatholicLabu.debug.xcconfig */,
+				0F9FB433CA9DC29C77F2FC22 /* Pods-zomiCatholicLabu.release.xcconfig */,
+				47916088008790D7BA4B41C1 /* Pods-zomiCatholicLabuTests.debug.xcconfig */,
+				A970C07E27C34CA91DDA1876 /* Pods-zomiCatholicLabuTests.release.xcconfig */,
+				1EC99E9CE4FD4BB2B0BF76DA /* Pods-zomiCatholicLabuUITests.debug.xcconfig */,
+				7595FF8DC7927BA15B1501B5 /* Pods-zomiCatholicLabuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 006188D61E425A9700BE0882 /* Build configuration list for PBXNativeTarget "zomiCatholicLabu" */;
 			buildPhases = (
+				EC379BDD5E5229A9531CA92F /* [CP] Check Pods Manifest.lock */,
 				006188AA1E425A9600BE0882 /* Sources */,
 				006188AB1E425A9600BE0882 /* Frameworks */,
 				006188AC1E425A9600BE0882 /* Resources */,
+				ABBADA42B91A3DFD4DCEAC00 /* [CP] Embed Pods Frameworks */,
+				416EAB89281AAC029C3CF75F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 006188D91E425A9700BE0882 /* Build configuration list for PBXNativeTarget "zomiCatholicLabuTests" */;
 			buildPhases = (
+				0C17D56AB1634B7F96F07291 /* [CP] Check Pods Manifest.lock */,
 				006188BE1E425A9700BE0882 /* Sources */,
 				006188BF1E425A9700BE0882 /* Frameworks */,
 				006188C01E425A9700BE0882 /* Resources */,
+				9FC4BAABB9362035CAE0B477 /* [CP] Embed Pods Frameworks */,
+				D7D7E88B61B35A0F25DC385B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 006188DC1E425A9700BE0882 /* Build configuration list for PBXNativeTarget "zomiCatholicLabuUITests" */;
 			buildPhases = (
+				C094DA3EA8A63E5A1771FD31 /* [CP] Check Pods Manifest.lock */,
 				006188C91E425A9700BE0882 /* Sources */,
 				006188CA1E425A9700BE0882 /* Frameworks */,
 				006188CB1E425A9700BE0882 /* Resources */,
+				90746DE46B9C3A50D128DFF3 /* [CP] Embed Pods Frameworks */,
+				EC376BD264B2AB99CF6CF29C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +292,7 @@
 			files = (
 				006188BC1E425A9600BE0882 /* LaunchScreen.storyboard in Resources */,
 				006188B91E425A9600BE0882 /* Assets.xcassets in Resources */,
+				006188E41E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite in Resources */,
 				006188B71E425A9600BE0882 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +313,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C17D56AB1634B7F96F07291 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		416EAB89281AAC029C3CF75F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zomiCatholicLabu/Pods-zomiCatholicLabu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90746DE46B9C3A50D128DFF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zomiCatholicLabuUITests/Pods-zomiCatholicLabuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FC4BAABB9362035CAE0B477 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zomiCatholicLabuTests/Pods-zomiCatholicLabuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABBADA42B91A3DFD4DCEAC00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zomiCatholicLabu/Pods-zomiCatholicLabu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C094DA3EA8A63E5A1771FD31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D7E88B61B35A0F25DC385B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zomiCatholicLabuTests/Pods-zomiCatholicLabuTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC376BD264B2AB99CF6CF29C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zomiCatholicLabuUITests/Pods-zomiCatholicLabuUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC379BDD5E5229A9531CA92F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		006188AA1E425A9600BE0882 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +458,8 @@
 			files = (
 				006188B41E425A9600BE0882 /* ViewController.swift in Sources */,
 				006188B21E425A9600BE0882 /* AppDelegate.swift in Sources */,
+				006188E21E42602600BE0882 /* controlSQLData.swift in Sources */,
+				006188E61E428FA500BE0882 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +607,7 @@
 		};
 		006188D71E425A9700BE0882 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B4BC94E018EE192F4A3B4CC /* Pods-zomiCatholicLabu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = zomiCatholicLabu/Info.plist;
@@ -420,6 +620,7 @@
 		};
 		006188D81E425A9700BE0882 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9FB433CA9DC29C77F2FC22 /* Pods-zomiCatholicLabu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = zomiCatholicLabu/Info.plist;
@@ -432,6 +633,7 @@
 		};
 		006188DA1E425A9700BE0882 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47916088008790D7BA4B41C1 /* Pods-zomiCatholicLabuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +648,7 @@
 		};
 		006188DB1E425A9700BE0882 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A970C07E27C34CA91DDA1876 /* Pods-zomiCatholicLabuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +663,7 @@
 		};
 		006188DD1E425A9700BE0882 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC99E9CE4FD4BB2B0BF76DA /* Pods-zomiCatholicLabuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = zomiCatholicLabuUITests/Info.plist;
@@ -473,6 +677,7 @@
 		};
 		006188DE1E425A9700BE0882 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7595FF8DC7927BA15B1501B5 /* Pods-zomiCatholicLabuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = zomiCatholicLabuUITests/Info.plist;
@@ -503,6 +708,7 @@
 				006188D81E425A9700BE0882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		006188D91E425A9700BE0882 /* Build configuration list for PBXNativeTarget "zomiCatholicLabuTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +717,7 @@
 				006188DB1E425A9700BE0882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		006188DC1E425A9700BE0882 /* Build configuration list for PBXNativeTarget "zomiCatholicLabuUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +726,7 @@
 				006188DE1E425A9700BE0882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
