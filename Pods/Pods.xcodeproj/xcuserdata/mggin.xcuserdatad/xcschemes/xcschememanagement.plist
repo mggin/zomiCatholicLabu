@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-zomiCatholicLabu.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-zomiCatholicLabuTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-zomiCatholicLabuUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SQLite.swift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3529C0D110AF27B8CF92A4DA6E304BF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D91A9510E447607591EA5E4713319D99</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4D537848EACA9ACCAA1FC3D262D956A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE7379AB505BC266087D0807C21CC31A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_zomiCatholicLabuTests {
+  umbrella header "Pods-zomiCatholicLabuTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
