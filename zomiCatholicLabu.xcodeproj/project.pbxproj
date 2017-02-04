@@ -17,6 +17,12 @@
 		006188E21E42602600BE0882 /* controlSQLData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188E11E42602600BE0882 /* controlSQLData.swift */; };
 		006188E41E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 006188E31E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite */; };
 		006188E61E428FA500BE0882 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188E51E428FA500BE0882 /* FirstViewController.swift */; };
+		00B179301E43C4EA0073B5D0 /* tableViewArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1792F1E43C4EA0073B5D0 /* tableViewArray.swift */; };
+		00B1793A1E458EE50073B5D0 /* LABU.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00B179361E458EE50073B5D0 /* LABU.txt */; };
+		00B1793B1E458EE50073B5D0 /* LATOMNO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00B179371E458EE50073B5D0 /* LATOMNO.txt */; };
+		00B1793C1E458EE50073B5D0 /* THUNGETNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00B179381E458EE50073B5D0 /* THUNGETNA.txt */; };
+		00B1793D1E458EE50073B5D0 /* ZONOLNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00B179391E458EE50073B5D0 /* ZONOLNA.txt */; };
+		00B179401E4597250073B5D0 /* ZONOLNATableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1793F1E4597250073B5D0 /* ZONOLNATableView.swift */; };
 		1F6F679D73584BFEA3581A34 /* Pods_zomiCatholicLabu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CDFBAFE104396C530084E2 /* Pods_zomiCatholicLabu.framework */; };
 		951CC884ACBD80490C0D5ED5 /* Pods_zomiCatholicLabuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9154173A6C0B2DF100ADB255 /* Pods_zomiCatholicLabuUITests.framework */; };
 		9B686F0B32019134956ED93C /* Pods_zomiCatholicLabuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A134E3BB5130F29DE95EB2E /* Pods_zomiCatholicLabuTests.framework */; };
@@ -56,6 +62,12 @@
 		006188E11E42602600BE0882 /* controlSQLData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controlSQLData.swift; sourceTree = "<group>"; };
 		006188E31E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = dataOfZomiCatholicLabu.sqlite; path = ../../dataOfZomiCatholicLabu.sqlite; sourceTree = "<group>"; };
 		006188E51E428FA500BE0882 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		00B1792F1E43C4EA0073B5D0 /* tableViewArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewArray.swift; sourceTree = "<group>"; };
+		00B179361E458EE50073B5D0 /* LABU.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LABU.txt; path = ../../LABU.txt; sourceTree = "<group>"; };
+		00B179371E458EE50073B5D0 /* LATOMNO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LATOMNO.txt; path = ../../LATOMNO.txt; sourceTree = "<group>"; };
+		00B179381E458EE50073B5D0 /* THUNGETNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = THUNGETNA.txt; path = ../../THUNGETNA.txt; sourceTree = "<group>"; };
+		00B179391E458EE50073B5D0 /* ZONOLNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZONOLNA.txt; path = ../../ZONOLNA.txt; sourceTree = "<group>"; };
+		00B1793F1E4597250073B5D0 /* ZONOLNATableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZONOLNATableView.swift; sourceTree = "<group>"; };
 		0F9FB433CA9DC29C77F2FC22 /* Pods-zomiCatholicLabu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomiCatholicLabu.release.xcconfig"; path = "Pods/Target Support Files/Pods-zomiCatholicLabu/Pods-zomiCatholicLabu.release.xcconfig"; sourceTree = "<group>"; };
 		1EC99E9CE4FD4BB2B0BF76DA /* Pods-zomiCatholicLabuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomiCatholicLabuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zomiCatholicLabuUITests/Pods-zomiCatholicLabuUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		47916088008790D7BA4B41C1 /* Pods-zomiCatholicLabuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomiCatholicLabuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zomiCatholicLabuTests/Pods-zomiCatholicLabuTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,10 +137,13 @@
 				006188B31E425A9600BE0882 /* ViewController.swift */,
 				006188E51E428FA500BE0882 /* FirstViewController.swift */,
 				006188B51E425A9600BE0882 /* Main.storyboard */,
+				00B1793F1E4597250073B5D0 /* ZONOLNATableView.swift */,
+				00B1792F1E43C4EA0073B5D0 /* tableViewArray.swift */,
 				006188B81E425A9600BE0882 /* Assets.xcassets */,
 				006188BA1E425A9600BE0882 /* LaunchScreen.storyboard */,
 				006188BD1E425A9600BE0882 /* Info.plist */,
-				006188E31E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite */,
+				00B1793E1E458F680073B5D0 /* SQLiteFile */,
+				00B179351E458EA90073B5D0 /* dataInTextFiles */,
 			);
 			path = zomiCatholicLabu;
 			sourceTree = "<group>";
@@ -149,6 +164,25 @@
 				006188D31E425A9700BE0882 /* Info.plist */,
 			);
 			path = zomiCatholicLabuUITests;
+			sourceTree = "<group>";
+		};
+		00B179351E458EA90073B5D0 /* dataInTextFiles */ = {
+			isa = PBXGroup;
+			children = (
+				00B179361E458EE50073B5D0 /* LABU.txt */,
+				00B179371E458EE50073B5D0 /* LATOMNO.txt */,
+				00B179381E458EE50073B5D0 /* THUNGETNA.txt */,
+				00B179391E458EE50073B5D0 /* ZONOLNA.txt */,
+			);
+			name = dataInTextFiles;
+			sourceTree = "<group>";
+		};
+		00B1793E1E458F680073B5D0 /* SQLiteFile */ = {
+			isa = PBXGroup;
+			children = (
+				006188E31E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite */,
+			);
+			name = SQLiteFile;
 			sourceTree = "<group>";
 		};
 		59EEBDA588C4969F65779F6A /* Frameworks */ = {
@@ -290,10 +324,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B1793D1E458EE50073B5D0 /* ZONOLNA.txt in Resources */,
 				006188BC1E425A9600BE0882 /* LaunchScreen.storyboard in Resources */,
 				006188B91E425A9600BE0882 /* Assets.xcassets in Resources */,
+				00B1793B1E458EE50073B5D0 /* LATOMNO.txt in Resources */,
 				006188E41E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite in Resources */,
 				006188B71E425A9600BE0882 /* Main.storyboard in Resources */,
+				00B1793C1E458EE50073B5D0 /* THUNGETNA.txt in Resources */,
+				00B1793A1E458EE50073B5D0 /* LABU.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +497,9 @@
 				006188B41E425A9600BE0882 /* ViewController.swift in Sources */,
 				006188B21E425A9600BE0882 /* AppDelegate.swift in Sources */,
 				006188E21E42602600BE0882 /* controlSQLData.swift in Sources */,
+				00B179301E43C4EA0073B5D0 /* tableViewArray.swift in Sources */,
 				006188E61E428FA500BE0882 /* FirstViewController.swift in Sources */,
+				00B179401E4597250073B5D0 /* ZONOLNATableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,7 +19,7 @@ class controlSQLData {
         // do nothing
     }
     
-    func confData(filter: String)  {
+    func confData(filter: Int)  {
         do {
             // finding the sqlite file
             let path = Bundle.main.path(forResource: "dataOfZomiCatholicLabu", ofType: "sqlite")!
@@ -29,6 +29,7 @@ class controlSQLData {
             let table = Table("FirstViewTable")
             let title = Expression<String?>("Title")
             let key = Expression<String?>("Key")
+            let rowid = Expression<Int?>("rowid")
             let verse1 = Expression<String?>("Verse1")
             let chorus = Expression<String?>("Chorus")
             let verse2 = Expression<String?>("Verse2")
@@ -40,8 +41,8 @@ class controlSQLData {
             let expressionList = [title, key, verse1, chorus, verse2, verse3, verse4, verse5, verse6]
             
             /* setting up the expression */
-            
-            let filterData = table.filter(title == filter)
+            print (filter)
+            let filterData = table.filter(rowid == filter)
             
             for entry in try db.prepare(filterData) {
                 for expression in expressionList {

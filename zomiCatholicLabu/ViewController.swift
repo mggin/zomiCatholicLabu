@@ -12,6 +12,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     var control = controlSQLData()
     
+    var text = tableViewArray()
+    
     // segment outlet added
     @IBOutlet weak var segmentOut: UISegmentedControl!
     // segment action added
@@ -24,14 +26,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var searchControl : UISearchController!
     
     // sample list
-    let labu = ["Amah muang un", "A ut khempeuh te"]
-    let latomno = ["Ngaklah Veng", "Gupna Bukim"]
-    let zonolna = ["SUNG TUM NA", "BIAK AP NA"]
-    let thungetna = ["Thungetna tuam tuam", "Tonu Maria tung thugetna"]
+    var labu = [String]()//["Amah muang un", "2 A ut khempeuh te", "3 Hong hehpih thei Topa"]
     var filter = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        text.extractString()
+        self.labu = text.LABU
         // control.confData(filter: "Amah muang un")
         // control.printData()
         confSearchBar()
@@ -57,11 +58,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         case 0:
             return labu.count
         case 1:
-            return latomno.count
+            return text.LATOMNO.count
         case 2:
-            return zonolna.count
+            return text.ZONONLA.count
         case 3:
-            return thungetna.count
+            return text.THUNGETNA.count
         default:
             return labu.count
         }
@@ -82,12 +83,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         case 0:
              cell.textLabel?.text = labu[indexPath.row]
         case 1:
-             cell.textLabel?.text = latomno[indexPath.row]
+             cell.textLabel?.text = text.LATOMNO[indexPath.row]
         case 2:
-            cell.textLabel?.text = zonolna[indexPath.row]
+            cell.textLabel?.text = text.ZONONLA[indexPath.row]
 
         case 3:
-            cell.textLabel?.text = thungetna[indexPath.row]
+            cell.textLabel?.text = text.THUNGETNA[indexPath.row]
 
         default:
             cell.textLabel?.text = labu[indexPath.row]
@@ -121,10 +122,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
    //  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var newOut = ""
         if segue.identifier == "first" {
             if let out = segue.destination as? FirstViewController {
-                out.filter = labu[(tableView.indexPathForSelectedRow?.row)!]
+                newOut = labu[(tableView.indexPathForSelectedRow?.row)!]
+                out.filter  = Int(newOut.components(separatedBy: CharacterSet.decimalDigits.inverted).joined(separator: ""))!
+                // out.filter = newOut.components(separatedBy: CharacterSet.decimalDigits).joined(separator: "").trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+                
+                // out.filter = newOut
+                // out.filter = list.joined(separator: "")// components(separatedBy: CharacterSet.decimalDigits.inverted).joined(separator: "")
+                // print (tableList.labu)
                 print (out.filter)
+                // print (list)
+                // print (newOut)
             }
         }
     }

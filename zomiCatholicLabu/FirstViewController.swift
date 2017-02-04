@@ -9,20 +9,12 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
-    var filter = "";
-    var control = controlSQLData()
     
-    @IBAction func btnBack(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-        control.dataSet.removeAll()}
-    
-    
-    // @IBOutlet weak var title: UILabel!
     @IBOutlet weak var titleOut: UILabel!
     
+   /* UITextView initialize here */
+    
     @IBOutlet weak var key: UITextView!
-    // @IBOutlet weak var key: UILabel!
     
     @IBOutlet weak var verse1: UITextView!
     
@@ -36,78 +28,108 @@ class FirstViewController: UIViewController {
     
     @IBOutlet weak var verse5: UITextView!
     
-    // @IBOutlet weak var verse6: UITextView!
+    @IBOutlet weak var verse6: UITextView!
     
-    @IBOutlet weak var one: UILabel!
+    @IBOutlet weak var verse7: UITextView!
     
-    @IBOutlet weak var two: UILabel!
+    @IBOutlet weak var verse8: UITextView!
     
-    @IBOutlet weak var sakkik: UILabel!
+    @IBOutlet weak var verse9: UITextView!
     
-    @IBOutlet weak var three: UILabel!
+    @IBOutlet weak var verse10: UITextView!
     
-    @IBOutlet weak var four: UILabel!
+    /* UITextView ended */
     
-    @IBOutlet weak var five: UILabel!
+    // UILabel started here 
     
-    // @IBOutlet weak var six: UILabel!
+    @IBOutlet weak var label1: UILabel!
     
-    // let uiList = [titleOut, key, verse1, chorus, verse2, verse3, verse4, verse5, verse6]
+    @IBOutlet weak var sakkikLabel: UILabel!
+    
+    @IBOutlet weak var label2: UILabel!
+    
+    @IBOutlet weak var label3: UILabel!
+    
+    @IBOutlet weak var label4: UILabel!
+    
+    @IBOutlet weak var label5: UILabel!
+    
+    @IBOutlet weak var label6: UILabel!
+    
+    @IBOutlet weak var label7: UILabel!
+    
+    @IBOutlet weak var label8: UILabel!
+    
+    @IBOutlet weak var label9: UILabel!
+    
+    @IBOutlet weak var label10: UILabel!
+    
+    // UILabel stop here
     
     // var filter = String()
     
     // var control = controlSQLData()
     
+    var filter = Int()
+    var control = controlSQLData()
+    
+    @IBAction func btnBack(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+        control.dataSet.removeAll()}
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let textViewList : [UITextView] = [key, verse1, chorus, verse2, verse3, verse4, verse5]
-        // print (filter)
-    
-        control.confData(filter: self.filter)
-        print (control.dataSet.count)
+        let textViewList : [UITextView] = [key, verse1, chorus, verse2, verse3, verse4,
+                                           verse5, verse6, verse7, verse8, verse9, verse10]
         
-      //  var loop = true
-        var num = 1
-        for textView in textViewList {
-            // var num = 1
-            textView.text = control.dataSet[num]
-            num += 1
-            if num > (control.dataSet.count-1) {
-                break
-            }
-        }
+        let labelList : [UILabel] = [label1, sakkikLabel, label2, label3, label4,
+                                     label5, label6, label7, label8, label9, label10]
+    
+        control.confData(filter:  self.filter)
+        print (control.dataSet.count)
+        setTextView(labelList: labelList, textViewlist: textViewList)
+    
      
        
         }
-        /*
-        var i = 0
-        // var j = 1
-            for num in 0 ... control.dataSet.count {
-                textViewList[i].text = control.dataSet[num]
-                if (i <= control.dataSet.count - 1){
-                    i += 1
-                    
-                }
-            }*/
-        
-        /*
-        titleOut.text = control.dataSet[0]
-        key.text = control.dataSet[1]
-        
-        verse1.text = control.dataSet[2]
-        
-        chorus.text = control.dataSet[3]
-        verse2.text = control.dataSet[4]
-        // verse3.text = control.dataSet[5]
-        // verse4.text = control.dataSet[6]
-*/
-
+    
         // Do any additional setup after loading the view.
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
         // Dispose of any resources that can be recreated.
+    }
+    
+    func setTextView(labelList: [UILabel], textViewlist : [UITextView]) {
+        
+        var countLabelList = labelList.count
+        var counttextList = textViewlist.count
+        let reverseLabelList = labelList.reversed()
+        let reversetextList = textViewlist.reversed()
+        for (label, text)in zip(reverseLabelList, reversetextList) {
+            label.isHidden = true
+            text.isHidden = true
+            countLabelList -= 1
+            counttextList -= 1
+            if (countLabelList < (control.dataSet.count-1) || counttextList < (control.dataSet.count-1)) {
+                break
+            }
+            
+            
+        }
+        let titleLabelLower = control.dataSet[0]
+        let titleLabelCap = titleLabelLower.uppercased()
+        titleOut.text = titleLabelCap
+        var countText = 1
+        for textView in textViewlist {
+            // var num = 1
+            textView.text = control.dataSet[countText]
+            countText += 1
+            if (countText > (control.dataSet.count-1) ){
+                break
+            }
+        }
     }
     
 
