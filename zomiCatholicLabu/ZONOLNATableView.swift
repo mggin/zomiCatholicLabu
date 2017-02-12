@@ -8,10 +8,27 @@
 
 import UIKit
 
-class ZONOLNATableView: UIViewController {
+class ZONOLNATableView: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    var filter = String()
+    var index = Int()
+    
+    var text = tableViewArray()
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    @IBOutlet weak var navBar: UINavigationBar!
+    
+    @IBAction func btnBackToMain(_ sender: Any) {
+
+        performSegue(withIdentifier: "backMain", sender: self)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        navBar.topItem?.title = filter
+        // self.title = filter
+        text.extractArrayFromZolOlna()
 
         // Do any additional setup after loading the view.
     }
@@ -21,15 +38,25 @@ class ZONOLNATableView: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return text.subZONOLNA[index].count
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "zonCell", for: indexPath)
+        cell.textLabel?.text = text.subZONOLNA[index][indexPath.row]
+        return cell
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "backMain" {
+            if let destination = segue.destination as? ViewController {
+                // destination.segmentOut.selectedSegmentIndex =
+                destination.indexForSegment = 2
+            }
+            
+        }
+    }
 }

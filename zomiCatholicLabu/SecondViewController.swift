@@ -1,24 +1,19 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  zomiCatholicLabu
 //
-//  Created by Thang Gin on 2/1/17.
+//  Created by Thang Gin on 2/11/17.
 //  Copyright © 2017 Thang Gin. All rights reserved.
 //
 
 import UIKit
 
-class FirstViewController: UIViewController {
-    
+class SecondViewController: UIViewController {
+
     @IBOutlet weak var titleOut: UILabel!
     
-   /* UITextView initialize here */
-    
-    @IBOutlet weak var key: UITextView!
-    
+    /* UITextView start here! */
     @IBOutlet weak var verse1: UITextView!
-    
-    @IBOutlet weak var chorus: UITextView!
     
     @IBOutlet weak var verse2: UITextView!
     
@@ -38,16 +33,23 @@ class FirstViewController: UIViewController {
     
     @IBOutlet weak var verse10: UITextView!
     
-    /* UITextView ended */
+    @IBOutlet weak var verse11: UITextView!
     
-    // UILabel started here 
+    @IBOutlet weak var verse12: UITextView!
+    
+    @IBOutlet weak var verse13: UITextView!
+    
+    @IBOutlet weak var verse14: UITextView!
+    /* end */
+    
+    /* label number start */
+    
+    @IBOutlet weak var labelKey: UITextView!
     
     @IBOutlet weak var label1: UILabel!
     
-    @IBOutlet weak var sakkikLabel: UILabel!
-    
     @IBOutlet weak var label2: UILabel!
-    
+
     @IBOutlet weak var label3: UILabel!
     
     @IBOutlet weak var label4: UILabel!
@@ -64,44 +66,42 @@ class FirstViewController: UIViewController {
     
     @IBOutlet weak var label10: UILabel!
     
-    // UILabel stop here
+    @IBOutlet weak var label11: UILabel!
     
-    // var filter = String()
+    @IBOutlet weak var label12: UILabel!
     
-    // var control = controlSQLData()
+    @IBOutlet weak var label13: UILabel!
+    
+    @IBOutlet weak var label14: UILabel!
     
     var filter = Int()
     var control = controlSQLData()
     
     @IBAction func btnBack(_ sender: Any) {
         dismiss(animated: true, completion: nil)
-        control.dataSet.removeAll()}
-    
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let textViewList : [UITextView] = [key, verse1, chorus, verse2, verse3, verse4,
-                                           verse5, verse6, verse7, verse8, verse9, verse10]
+        let textViewList : [UITextView] = [labelKey, verse1, verse2, verse3, verse4,
+                                           verse5, verse6, verse7, verse8, verse9, verse10,
+                                           verse11, verse12, verse13, verse14]
         
-        let labelList : [UILabel] = [label1, sakkikLabel, label2, label3, label4,
-                                     label5, label6, label7, label8, label9, label10]
-    
+        let labelList : [UILabel] = [label1, label2, label3, label4,
+                                     label5, label6, label7, label8, label9, label10,
+                                     label11, label12, label13, label14]
+        
         control.confData(filter:  self.filter)
-        //  For Debugees use: print (control.dataSet.count)
         setTextView(labelList: labelList, textViewlist: textViewList)
-    
-     
-       
-        }
-    
+
         // Do any additional setup after loading the view.
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
         // Dispose of any resources that can be recreated.
+        
     }
-    
-    /* setTextView eliminate the unused Text View and Label and set up the corresponding text to right places */
     
     func setTextView(labelList: [UILabel], textViewlist : [UITextView]) {
         
@@ -140,6 +140,14 @@ class FirstViewController: UIViewController {
     }
     
 
-   
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }

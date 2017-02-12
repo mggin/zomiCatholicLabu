@@ -7,6 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0017766A1E4906D700E56017 /* LABU.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776661E4906D600E56017 /* LABU.txt */; };
+		0017766B1E4906D700E56017 /* LATOMNO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776671E4906D600E56017 /* LATOMNO.txt */; };
+		0017766C1E4906D700E56017 /* THUNGETNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776681E4906D600E56017 /* THUNGETNA.txt */; };
+		0017766D1E4906D700E56017 /* ZONOLNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776691E4906D600E56017 /* ZONOLNA.txt */; };
+		001776891E49072E00E56017 /* ADVENTU_HUN.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0017766F1E49072E00E56017 /* ADVENTU_HUN.txt */; };
+		0017768A1E49072E00E56017 /* BIAK_AP_NA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776701E49072E00E56017 /* BIAK_AP_NA.txt */; };
+		0017768B1E49072E00E56017 /* BIAKNA_LEH_NGETNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776711E49072E00E56017 /* BIAKNA_LEH_NGETNA.txt */; };
+		0017768C1E49072E00E56017 /* CHRISTIAN_NUNTAK_NA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776721E49072E00E56017 /* CHRISTIAN_NUNTAK_NA.txt */; };
+		0017768D1E49072E00E56017 /* HANTHOT_NA_LEH_MUANNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776731E49072E00E56017 /* HANTHOT_NA_LEH_MUANNA.txt */; };
+		0017768E1E49072E00E56017 /* HEHNEP_NA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776741E49072E00E56017 /* HEHNEP_NA.txt */; };
+		0017768F1E49072E00E56017 /* HONGPAI_KIK_NANG.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776751E49072E00E56017 /* HONGPAI_KIK_NANG.txt */; };
+		001776901E49072E00E56017 /* INNTHUPHA_PIAK_NA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776761E49072E00E56017 /* INNTHUPHA_PIAK_NA.txt */; };
+		001776911E49072E00E56017 /* JESUS_KUMPIPA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776771E49072E00E56017 /* JESUS_KUMPIPA.txt */; };
+		001776921E49072E00E56017 /* JESUS’_PAWLPI.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776781E49072E00E56017 /* JESUS’_PAWLPI.txt */; };
+		001776931E49072E00E56017 /* KHASIANGTHO_PASIAN.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776791E49072E00E56017 /* KHASIANGTHO_PASIAN.txt */; };
+		001776941E49072E00E56017 /* LUNG_DAM_BAWL_HUN.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0017767A1E49072E00E56017 /* LUNG_DAM_BAWL_HUN.txt */; };
+		001776951E49072E00E56017 /* LUNG_DAM_KOH_NA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0017767B1E49072E00E56017 /* LUNG_DAM_KOH_NA.txt */; };
+		001776961E49072E00E56017 /* MISIANGTHO_TE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0017767C1E49072E00E56017 /* MISIANGTHO_TE.txt */; };
+		001776971E49072E00E56017 /* MISSA_BIAK_NA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0017767D1E49072E00E56017 /* MISSA_BIAK_NA.txt */; };
+		001776981E49072E00E56017 /* NU_MARIA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0017767E1E49072E00E56017 /* NU_MARIA.txt */; };
+		001776991E49072E00E56017 /* PHATNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0017767F1E49072E00E56017 /* PHATNA.txt */; };
+		0017769A1E49072E00E56017 /* SACRAMENTU.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776801E49072E00E56017 /* SACRAMENTU.txt */; };
+		0017769B1E49072E00E56017 /* SIANG_THO_PUMPI_BIAKNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776811E49072E00E56017 /* SIANG_THO_PUMPI_BIAKNA.txt */; };
+		0017769C1E49072E00E56017 /* SIANGTHO_LUNGTANG.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776821E49072E00E56017 /* SIANGTHO_LUNGTANG.txt */; };
+		0017769D1E49072E00E56017 /* SIANGTHO_PUMPI_SAN_NA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776831E49072E00E56017 /* SIANGTHO_PUMPI_SAN_NA.txt */; };
+		0017769E1E49072E00E56017 /* SUNG_THUM_NA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776841E49072E00E56017 /* SUNG_THUM_NA.txt */; };
+		0017769F1E49072E00E56017 /* THAWHKIK_HUN.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776851E49072E00E56017 /* THAWHKIK_HUN.txt */; };
+		001776A01E49072E00E56017 /* THUUMNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776861E49072E00E56017 /* THUUMNA.txt */; };
+		001776A11E49072E00E56017 /* TOTHUM_PASIAN_KHAT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776871E49072E00E56017 /* TOTHUM_PASIAN_KHAT.txt */; };
+		001776A21E49072E00E56017 /* ZEHTAN_HUN.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776881E49072E00E56017 /* ZEHTAN_HUN.txt */; };
+		0026DD141E4F9A9E000A6910 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026DD131E4F9A9E000A6910 /* SecondViewController.swift */; };
 		006188B21E425A9600BE0882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188B11E425A9600BE0882 /* AppDelegate.swift */; };
 		006188B41E425A9600BE0882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188B31E425A9600BE0882 /* ViewController.swift */; };
 		006188B71E425A9600BE0882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006188B51E425A9600BE0882 /* Main.storyboard */; };
@@ -18,10 +49,6 @@
 		006188E41E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 006188E31E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite */; };
 		006188E61E428FA500BE0882 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188E51E428FA500BE0882 /* FirstViewController.swift */; };
 		00B179301E43C4EA0073B5D0 /* tableViewArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1792F1E43C4EA0073B5D0 /* tableViewArray.swift */; };
-		00B1793A1E458EE50073B5D0 /* LABU.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00B179361E458EE50073B5D0 /* LABU.txt */; };
-		00B1793B1E458EE50073B5D0 /* LATOMNO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00B179371E458EE50073B5D0 /* LATOMNO.txt */; };
-		00B1793C1E458EE50073B5D0 /* THUNGETNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00B179381E458EE50073B5D0 /* THUNGETNA.txt */; };
-		00B1793D1E458EE50073B5D0 /* ZONOLNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00B179391E458EE50073B5D0 /* ZONOLNA.txt */; };
 		00B179401E4597250073B5D0 /* ZONOLNATableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1793F1E4597250073B5D0 /* ZONOLNATableView.swift */; };
 		1F6F679D73584BFEA3581A34 /* Pods_zomiCatholicLabu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CDFBAFE104396C530084E2 /* Pods_zomiCatholicLabu.framework */; };
 		951CC884ACBD80490C0D5ED5 /* Pods_zomiCatholicLabuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9154173A6C0B2DF100ADB255 /* Pods_zomiCatholicLabuUITests.framework */; };
@@ -46,6 +73,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001776661E4906D600E56017 /* LABU.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LABU.txt; path = "Text Files/LABU.txt"; sourceTree = SOURCE_ROOT; };
+		001776671E4906D600E56017 /* LATOMNO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LATOMNO.txt; path = "Text Files/LATOMNO.txt"; sourceTree = SOURCE_ROOT; };
+		001776681E4906D600E56017 /* THUNGETNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = THUNGETNA.txt; path = "Text Files/THUNGETNA.txt"; sourceTree = SOURCE_ROOT; };
+		001776691E4906D600E56017 /* ZONOLNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZONOLNA.txt; path = "Text Files/ZONOLNA.txt"; sourceTree = SOURCE_ROOT; };
+		0017766F1E49072E00E56017 /* ADVENTU_HUN.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ADVENTU_HUN.txt; path = "Text Files/ADVENTU_HUN.txt"; sourceTree = SOURCE_ROOT; };
+		001776701E49072E00E56017 /* BIAK_AP_NA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BIAK_AP_NA.txt; path = "Text Files/BIAK_AP_NA.txt"; sourceTree = SOURCE_ROOT; };
+		001776711E49072E00E56017 /* BIAKNA_LEH_NGETNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BIAKNA_LEH_NGETNA.txt; path = "Text Files/BIAKNA_LEH_NGETNA.txt"; sourceTree = SOURCE_ROOT; };
+		001776721E49072E00E56017 /* CHRISTIAN_NUNTAK_NA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CHRISTIAN_NUNTAK_NA.txt; path = "Text Files/CHRISTIAN_NUNTAK_NA.txt"; sourceTree = SOURCE_ROOT; };
+		001776731E49072E00E56017 /* HANTHOT_NA_LEH_MUANNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HANTHOT_NA_LEH_MUANNA.txt; path = "Text Files/HANTHOT_NA_LEH_MUANNA.txt"; sourceTree = SOURCE_ROOT; };
+		001776741E49072E00E56017 /* HEHNEP_NA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HEHNEP_NA.txt; path = "Text Files/HEHNEP_NA.txt"; sourceTree = SOURCE_ROOT; };
+		001776751E49072E00E56017 /* HONGPAI_KIK_NANG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HONGPAI_KIK_NANG.txt; path = "Text Files/HONGPAI_KIK_NANG.txt"; sourceTree = SOURCE_ROOT; };
+		001776761E49072E00E56017 /* INNTHUPHA_PIAK_NA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = INNTHUPHA_PIAK_NA.txt; path = "Text Files/INNTHUPHA_PIAK_NA.txt"; sourceTree = SOURCE_ROOT; };
+		001776771E49072E00E56017 /* JESUS_KUMPIPA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = JESUS_KUMPIPA.txt; path = "Text Files/JESUS_KUMPIPA.txt"; sourceTree = SOURCE_ROOT; };
+		001776781E49072E00E56017 /* JESUS’_PAWLPI.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "JESUS’_PAWLPI.txt"; path = "Text Files/JESUS’_PAWLPI.txt"; sourceTree = SOURCE_ROOT; };
+		001776791E49072E00E56017 /* KHASIANGTHO_PASIAN.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KHASIANGTHO_PASIAN.txt; path = "Text Files/KHASIANGTHO_PASIAN.txt"; sourceTree = SOURCE_ROOT; };
+		0017767A1E49072E00E56017 /* LUNG_DAM_BAWL_HUN.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LUNG_DAM_BAWL_HUN.txt; path = "Text Files/LUNG_DAM_BAWL_HUN.txt"; sourceTree = SOURCE_ROOT; };
+		0017767B1E49072E00E56017 /* LUNG_DAM_KOH_NA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LUNG_DAM_KOH_NA.txt; path = "Text Files/LUNG_DAM_KOH_NA.txt"; sourceTree = SOURCE_ROOT; };
+		0017767C1E49072E00E56017 /* MISIANGTHO_TE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MISIANGTHO_TE.txt; path = "Text Files/MISIANGTHO_TE.txt"; sourceTree = SOURCE_ROOT; };
+		0017767D1E49072E00E56017 /* MISSA_BIAK_NA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MISSA_BIAK_NA.txt; path = "Text Files/MISSA_BIAK_NA.txt"; sourceTree = SOURCE_ROOT; };
+		0017767E1E49072E00E56017 /* NU_MARIA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NU_MARIA.txt; path = "Text Files/NU_MARIA.txt"; sourceTree = SOURCE_ROOT; };
+		0017767F1E49072E00E56017 /* PHATNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PHATNA.txt; path = "Text Files/PHATNA.txt"; sourceTree = SOURCE_ROOT; };
+		001776801E49072E00E56017 /* SACRAMENTU.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SACRAMENTU.txt; path = "Text Files/SACRAMENTU.txt"; sourceTree = SOURCE_ROOT; };
+		001776811E49072E00E56017 /* SIANG_THO_PUMPI_BIAKNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SIANG_THO_PUMPI_BIAKNA.txt; path = "Text Files/SIANG_THO_PUMPI_BIAKNA.txt"; sourceTree = SOURCE_ROOT; };
+		001776821E49072E00E56017 /* SIANGTHO_LUNGTANG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SIANGTHO_LUNGTANG.txt; path = "Text Files/SIANGTHO_LUNGTANG.txt"; sourceTree = SOURCE_ROOT; };
+		001776831E49072E00E56017 /* SIANGTHO_PUMPI_SAN_NA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SIANGTHO_PUMPI_SAN_NA.txt; path = "Text Files/SIANGTHO_PUMPI_SAN_NA.txt"; sourceTree = SOURCE_ROOT; };
+		001776841E49072E00E56017 /* SUNG_THUM_NA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SUNG_THUM_NA.txt; path = "Text Files/SUNG_THUM_NA.txt"; sourceTree = SOURCE_ROOT; };
+		001776851E49072E00E56017 /* THAWHKIK_HUN.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = THAWHKIK_HUN.txt; path = "Text Files/THAWHKIK_HUN.txt"; sourceTree = SOURCE_ROOT; };
+		001776861E49072E00E56017 /* THUUMNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = THUUMNA.txt; path = "Text Files/THUUMNA.txt"; sourceTree = SOURCE_ROOT; };
+		001776871E49072E00E56017 /* TOTHUM_PASIAN_KHAT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TOTHUM_PASIAN_KHAT.txt; path = "Text Files/TOTHUM_PASIAN_KHAT.txt"; sourceTree = SOURCE_ROOT; };
+		001776881E49072E00E56017 /* ZEHTAN_HUN.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZEHTAN_HUN.txt; path = "Text Files/ZEHTAN_HUN.txt"; sourceTree = SOURCE_ROOT; };
+		0026DD131E4F9A9E000A6910 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		006188AE1E425A9600BE0882 /* zomiCatholicLabu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zomiCatholicLabu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		006188B11E425A9600BE0882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		006188B31E425A9600BE0882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,10 +121,6 @@
 		006188E31E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = dataOfZomiCatholicLabu.sqlite; path = ../../dataOfZomiCatholicLabu.sqlite; sourceTree = "<group>"; };
 		006188E51E428FA500BE0882 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		00B1792F1E43C4EA0073B5D0 /* tableViewArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewArray.swift; sourceTree = "<group>"; };
-		00B179361E458EE50073B5D0 /* LABU.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LABU.txt; path = ../../LABU.txt; sourceTree = "<group>"; };
-		00B179371E458EE50073B5D0 /* LATOMNO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LATOMNO.txt; path = ../../LATOMNO.txt; sourceTree = "<group>"; };
-		00B179381E458EE50073B5D0 /* THUNGETNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = THUNGETNA.txt; path = ../../THUNGETNA.txt; sourceTree = "<group>"; };
-		00B179391E458EE50073B5D0 /* ZONOLNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZONOLNA.txt; path = ../../ZONOLNA.txt; sourceTree = "<group>"; };
 		00B1793F1E4597250073B5D0 /* ZONOLNATableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZONOLNATableView.swift; sourceTree = "<group>"; };
 		0F9FB433CA9DC29C77F2FC22 /* Pods-zomiCatholicLabu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomiCatholicLabu.release.xcconfig"; path = "Pods/Target Support Files/Pods-zomiCatholicLabu/Pods-zomiCatholicLabu.release.xcconfig"; sourceTree = "<group>"; };
 		1EC99E9CE4FD4BB2B0BF76DA /* Pods-zomiCatholicLabuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zomiCatholicLabuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zomiCatholicLabuUITests/Pods-zomiCatholicLabuUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +161,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0017766E1E49070D00E56017 /* zonOlNaSubTextFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0017766F1E49072E00E56017 /* ADVENTU_HUN.txt */,
+				001776701E49072E00E56017 /* BIAK_AP_NA.txt */,
+				001776711E49072E00E56017 /* BIAKNA_LEH_NGETNA.txt */,
+				001776721E49072E00E56017 /* CHRISTIAN_NUNTAK_NA.txt */,
+				001776731E49072E00E56017 /* HANTHOT_NA_LEH_MUANNA.txt */,
+				001776741E49072E00E56017 /* HEHNEP_NA.txt */,
+				001776751E49072E00E56017 /* HONGPAI_KIK_NANG.txt */,
+				001776761E49072E00E56017 /* INNTHUPHA_PIAK_NA.txt */,
+				001776771E49072E00E56017 /* JESUS_KUMPIPA.txt */,
+				001776781E49072E00E56017 /* JESUS’_PAWLPI.txt */,
+				001776791E49072E00E56017 /* KHASIANGTHO_PASIAN.txt */,
+				0017767A1E49072E00E56017 /* LUNG_DAM_BAWL_HUN.txt */,
+				0017767B1E49072E00E56017 /* LUNG_DAM_KOH_NA.txt */,
+				0017767C1E49072E00E56017 /* MISIANGTHO_TE.txt */,
+				0017767D1E49072E00E56017 /* MISSA_BIAK_NA.txt */,
+				0017767E1E49072E00E56017 /* NU_MARIA.txt */,
+				0017767F1E49072E00E56017 /* PHATNA.txt */,
+				001776801E49072E00E56017 /* SACRAMENTU.txt */,
+				001776811E49072E00E56017 /* SIANG_THO_PUMPI_BIAKNA.txt */,
+				001776821E49072E00E56017 /* SIANGTHO_LUNGTANG.txt */,
+				001776831E49072E00E56017 /* SIANGTHO_PUMPI_SAN_NA.txt */,
+				001776841E49072E00E56017 /* SUNG_THUM_NA.txt */,
+				001776851E49072E00E56017 /* THAWHKIK_HUN.txt */,
+				001776861E49072E00E56017 /* THUUMNA.txt */,
+				001776871E49072E00E56017 /* TOTHUM_PASIAN_KHAT.txt */,
+				001776881E49072E00E56017 /* ZEHTAN_HUN.txt */,
+			);
+			name = zonOlNaSubTextFiles;
+			sourceTree = "<group>";
+		};
 		006188A51E425A9600BE0882 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +223,7 @@
 				006188E11E42602600BE0882 /* controlSQLData.swift */,
 				006188B31E425A9600BE0882 /* ViewController.swift */,
 				006188E51E428FA500BE0882 /* FirstViewController.swift */,
+				0026DD131E4F9A9E000A6910 /* SecondViewController.swift */,
 				006188B51E425A9600BE0882 /* Main.storyboard */,
 				00B1793F1E4597250073B5D0 /* ZONOLNATableView.swift */,
 				00B1792F1E43C4EA0073B5D0 /* tableViewArray.swift */,
@@ -169,10 +257,11 @@
 		00B179351E458EA90073B5D0 /* dataInTextFiles */ = {
 			isa = PBXGroup;
 			children = (
-				00B179361E458EE50073B5D0 /* LABU.txt */,
-				00B179371E458EE50073B5D0 /* LATOMNO.txt */,
-				00B179381E458EE50073B5D0 /* THUNGETNA.txt */,
-				00B179391E458EE50073B5D0 /* ZONOLNA.txt */,
+				0017766E1E49070D00E56017 /* zonOlNaSubTextFiles */,
+				001776661E4906D600E56017 /* LABU.txt */,
+				001776671E4906D600E56017 /* LATOMNO.txt */,
+				001776681E4906D600E56017 /* THUNGETNA.txt */,
+				001776691E4906D600E56017 /* ZONOLNA.txt */,
 			);
 			name = dataInTextFiles;
 			sourceTree = "<group>";
@@ -285,6 +374,7 @@
 				TargetAttributes = {
 					006188AD1E425A9600BE0882 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H66L798LEW;
 						ProvisioningStyle = Automatic;
 					};
 					006188C11E425A9700BE0882 = {
@@ -324,14 +414,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B1793D1E458EE50073B5D0 /* ZONOLNA.txt in Resources */,
+				001776921E49072E00E56017 /* JESUS’_PAWLPI.txt in Resources */,
 				006188BC1E425A9600BE0882 /* LaunchScreen.storyboard in Resources */,
+				0017766B1E4906D700E56017 /* LATOMNO.txt in Resources */,
+				001776951E49072E00E56017 /* LUNG_DAM_KOH_NA.txt in Resources */,
+				001776891E49072E00E56017 /* ADVENTU_HUN.txt in Resources */,
+				0017769A1E49072E00E56017 /* SACRAMENTU.txt in Resources */,
+				0017768D1E49072E00E56017 /* HANTHOT_NA_LEH_MUANNA.txt in Resources */,
+				001776941E49072E00E56017 /* LUNG_DAM_BAWL_HUN.txt in Resources */,
+				0017769E1E49072E00E56017 /* SUNG_THUM_NA.txt in Resources */,
+				001776931E49072E00E56017 /* KHASIANGTHO_PASIAN.txt in Resources */,
+				001776901E49072E00E56017 /* INNTHUPHA_PIAK_NA.txt in Resources */,
+				0017768F1E49072E00E56017 /* HONGPAI_KIK_NANG.txt in Resources */,
+				001776A21E49072E00E56017 /* ZEHTAN_HUN.txt in Resources */,
 				006188B91E425A9600BE0882 /* Assets.xcassets in Resources */,
-				00B1793B1E458EE50073B5D0 /* LATOMNO.txt in Resources */,
+				0017768B1E49072E00E56017 /* BIAKNA_LEH_NGETNA.txt in Resources */,
+				0017766D1E4906D700E56017 /* ZONOLNA.txt in Resources */,
+				0017766A1E4906D700E56017 /* LABU.txt in Resources */,
+				0017769C1E49072E00E56017 /* SIANGTHO_LUNGTANG.txt in Resources */,
 				006188E41E42615F00BE0882 /* dataOfZomiCatholicLabu.sqlite in Resources */,
+				001776991E49072E00E56017 /* PHATNA.txt in Resources */,
+				001776971E49072E00E56017 /* MISSA_BIAK_NA.txt in Resources */,
+				0017768C1E49072E00E56017 /* CHRISTIAN_NUNTAK_NA.txt in Resources */,
+				001776911E49072E00E56017 /* JESUS_KUMPIPA.txt in Resources */,
 				006188B71E425A9600BE0882 /* Main.storyboard in Resources */,
-				00B1793C1E458EE50073B5D0 /* THUNGETNA.txt in Resources */,
-				00B1793A1E458EE50073B5D0 /* LABU.txt in Resources */,
+				0017769D1E49072E00E56017 /* SIANGTHO_PUMPI_SAN_NA.txt in Resources */,
+				001776961E49072E00E56017 /* MISIANGTHO_TE.txt in Resources */,
+				0017769F1E49072E00E56017 /* THAWHKIK_HUN.txt in Resources */,
+				001776A11E49072E00E56017 /* TOTHUM_PASIAN_KHAT.txt in Resources */,
+				0017768E1E49072E00E56017 /* HEHNEP_NA.txt in Resources */,
+				001776A01E49072E00E56017 /* THUUMNA.txt in Resources */,
+				0017769B1E49072E00E56017 /* SIANG_THO_PUMPI_BIAKNA.txt in Resources */,
+				0017766C1E4906D700E56017 /* THUNGETNA.txt in Resources */,
+				001776981E49072E00E56017 /* NU_MARIA.txt in Resources */,
+				0017768A1E49072E00E56017 /* BIAK_AP_NA.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +614,7 @@
 				006188B21E425A9600BE0882 /* AppDelegate.swift in Sources */,
 				006188E21E42602600BE0882 /* controlSQLData.swift in Sources */,
 				00B179301E43C4EA0073B5D0 /* tableViewArray.swift in Sources */,
+				0026DD141E4F9A9E000A6910 /* SecondViewController.swift in Sources */,
 				006188E61E428FA500BE0882 /* FirstViewController.swift in Sources */,
 				00B179401E4597250073B5D0 /* ZONOLNATableView.swift in Sources */,
 			);
@@ -650,7 +767,9 @@
 			baseConfigurationReference = 4B4BC94E018EE192F4A3B4CC /* Pods-zomiCatholicLabu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H66L798LEW;
 				INFOPLIST_FILE = zomiCatholicLabu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gin.zomiCatholicLabu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -663,7 +782,9 @@
 			baseConfigurationReference = 0F9FB433CA9DC29C77F2FC22 /* Pods-zomiCatholicLabu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H66L798LEW;
 				INFOPLIST_FILE = zomiCatholicLabu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gin.zomiCatholicLabu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
