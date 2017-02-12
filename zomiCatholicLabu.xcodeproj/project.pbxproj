@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001004541E5014BC0023ED96 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001004531E5014BC0023ED96 /* ThirdViewController.swift */; };
 		0017766A1E4906D700E56017 /* LABU.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776661E4906D600E56017 /* LABU.txt */; };
 		0017766B1E4906D700E56017 /* LATOMNO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776671E4906D600E56017 /* LATOMNO.txt */; };
 		0017766C1E4906D700E56017 /* THUNGETNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776681E4906D600E56017 /* THUNGETNA.txt */; };
@@ -73,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001004531E5014BC0023ED96 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		001776661E4906D600E56017 /* LABU.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LABU.txt; path = "Text Files/LABU.txt"; sourceTree = SOURCE_ROOT; };
 		001776671E4906D600E56017 /* LATOMNO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LATOMNO.txt; path = "Text Files/LATOMNO.txt"; sourceTree = SOURCE_ROOT; };
 		001776681E4906D600E56017 /* THUNGETNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = THUNGETNA.txt; path = "Text Files/THUNGETNA.txt"; sourceTree = SOURCE_ROOT; };
@@ -224,6 +226,7 @@
 				006188B31E425A9600BE0882 /* ViewController.swift */,
 				006188E51E428FA500BE0882 /* FirstViewController.swift */,
 				0026DD131E4F9A9E000A6910 /* SecondViewController.swift */,
+				001004531E5014BC0023ED96 /* ThirdViewController.swift */,
 				006188B51E425A9600BE0882 /* Main.storyboard */,
 				00B1793F1E4597250073B5D0 /* ZONOLNATableView.swift */,
 				00B1792F1E43C4EA0073B5D0 /* tableViewArray.swift */,
@@ -616,6 +619,7 @@
 				00B179301E43C4EA0073B5D0 /* tableViewArray.swift in Sources */,
 				0026DD141E4F9A9E000A6910 /* SecondViewController.swift in Sources */,
 				006188E61E428FA500BE0882 /* FirstViewController.swift in Sources */,
+				001004541E5014BC0023ED96 /* ThirdViewController.swift in Sources */,
 				00B179401E4597250073B5D0 /* ZONOLNATableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

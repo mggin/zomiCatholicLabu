@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ThirdViewController.swift
 //  zomiCatholicLabu
 //
 //  Created by Thang Gin on 2/11/17.
@@ -8,11 +8,15 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ThirdViewController: UIViewController {
 
+    
     @IBOutlet weak var titleOut: UILabel!
     
-    /* UITextView start here! */
+    @IBOutlet weak var textKey: UITextView!
+    
+    @IBOutlet weak var topText: UITextView!
+    
     @IBOutlet weak var verse1: UITextView!
     
     @IBOutlet weak var verse2: UITextView!
@@ -29,27 +33,13 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var verse8: UITextView!
     
-    @IBOutlet weak var verse9: UITextView!
     
-    @IBOutlet weak var verse10: UITextView!
-    
-    @IBOutlet weak var verse11: UITextView!
-    
-    @IBOutlet weak var verse12: UITextView!
-    
-    @IBOutlet weak var verse13: UITextView!
-    
-    @IBOutlet weak var verse14: UITextView!
-    /* end */
-    
-    /* label number start */
-    
-    @IBOutlet weak var labelKey: UITextView!
+    @IBOutlet weak var IntroText: UILabel!
     
     @IBOutlet weak var label1: UILabel!
     
     @IBOutlet weak var label2: UILabel!
-
+    
     @IBOutlet weak var label3: UILabel!
     
     @IBOutlet weak var label4: UILabel!
@@ -62,40 +52,26 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var label8: UILabel!
     
-    @IBOutlet weak var label9: UILabel!
-    
-    @IBOutlet weak var label10: UILabel!
-    
-    @IBOutlet weak var label11: UILabel!
-    
-    @IBOutlet weak var label12: UILabel!
-    
-    @IBOutlet weak var label13: UILabel!
-    
-    @IBOutlet weak var label14: UILabel!
-    
-    @IBOutlet weak var navTitle: UINavigationBar!
-    var filter = Int()
-    var control = controlSQLData()
-    
-    @IBAction func btnBack(_ sender: Any) {
+    @IBAction func btnAction(_ sender: Any) {
         dismiss(animated: true, completion: nil)
         control.dataSet.removeAll()
     }
+    
+    var filter = Int()
+    var control = controlSQLData()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        navTitle.topItem?.title = ("\(filter)")
+        let textViewList : [UITextView] = [textKey,topText, verse1, verse2, verse3, verse4,
+                                           verse5, verse6, verse7, verse8]
         
-        let textViewList : [UITextView] = [labelKey, verse1, verse2, verse3, verse4,
-                                           verse5, verse6, verse7, verse8, verse9, verse10,
-                                           verse11, verse12, verse13, verse14]
-        
-        let labelList : [UILabel] = [label1, label2, label3, label4,
-                                     label5, label6, label7, label8, label9, label10,
-                                     label11, label12, label13, label14]
+        let labelList : [UILabel] = [IntroText, label1 , label2, label3, label4,
+                                     label5, label6, label7, label8]
         
         control.confData(filter:  self.filter)
+        //  For Debugees use: print (control.dataSet.count)
         setTextView(labelList: labelList, textViewlist: textViewList)
+        setIntroText(num: self.filter)
 
         // Do any additional setup after loading the view.
     }
@@ -103,7 +79,19 @@ class SecondViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func setIntroText(num: Int) {
+        let Dawng = [96, 139, 179, 190, 248, 250, 303, 377, 468, 476]
+        let Siam = [46, 49]
         
+        if Dawng.contains(num) {
+            IntroText.text = "Dawngtawina:"
+        } else if (Siam.contains(num)) {
+            IntroText.text = "Simpipa:"
+        } else {
+            IntroText.text = "     "
+        }
     }
     
     func setTextView(labelList: [UILabel], textViewlist : [UITextView]) {
@@ -141,7 +129,6 @@ class SecondViewController: UIViewController {
             }
         }
     }
-    
 
     /*
     // MARK: - Navigation
