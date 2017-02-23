@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E4D537848EACA9ACCAA1FC3D262D956A'
+               BlueprintIdentifier = '26DBE7EE3E73807370A9B031D1CD77B9'
                BlueprintName = 'Pods-zomiCatholicLabu'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-zomiCatholicLabu.framework'>

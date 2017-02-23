@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class ThirdViewController: UIViewController {
 
@@ -33,6 +34,19 @@ class ThirdViewController: UIViewController {
     
     @IBOutlet weak var verse8: UITextView!
     
+    @IBOutlet weak var verse9: UITextView!
+    
+    @IBOutlet weak var verse10: UITextView!
+    
+    @IBOutlet weak var verse11: UITextView!
+    
+    @IBOutlet weak var verse12: UITextView!
+    
+    @IBOutlet weak var verse13: UITextView!
+    
+    @IBOutlet weak var verse14: UITextView!
+    
+    
     
     @IBOutlet weak var IntroText: UILabel!
     
@@ -52,26 +66,67 @@ class ThirdViewController: UIViewController {
     
     @IBOutlet weak var label8: UILabel!
     
-    @IBAction func btnAction(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-        control.dataSet.removeAll()
-    }
+    @IBOutlet weak var label9: UILabel!
     
-    var filter = Int()
+    @IBOutlet weak var label10: UILabel!
+    
+    @IBOutlet weak var label11: UILabel!
+    
+    @IBOutlet weak var label12: UILabel!
+    
+    @IBOutlet weak var label13: UILabel!
+    
+    @IBOutlet weak var label14: UILabel!
+    
+    @IBOutlet weak var scrollView: UIScrollView!
+   
+    @IBOutlet weak var heightConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var bannerView: GADBannerView!
+    
+    var filter : AnyObject? = nil
+    
     var control = controlSQLData()
     
+    var text = tableViewArray()
+    
+    var mainViewHeight = CGFloat(160)
+    // var barTitle = String()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let request = GADRequest()
+        request.testDevices = ["DDC9C4A4-D8B5-47DF-8188-C62230EA2B9B", "8e4cb42e8cc98ebf72d9664bacc860e582c36fa8"]
+        
+        bannerView.adUnitID = "ca-app-pub-3325489361196839/6574558703"
+        bannerView.rootViewController = self
+        bannerView.load(request)
+        
+        //self.navigationItem.leftBarButtonItem = leftItem
+        // self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: labelPage)
         let textViewList : [UITextView] = [textKey,topText, verse1, verse2, verse3, verse4,
-                                           verse5, verse6, verse7, verse8]
+                                           verse5, verse6, verse7, verse8, verse9, verse10, verse11, verse12, verse13, verse14]
         
         let labelList : [UILabel] = [IntroText, label1 , label2, label3, label4,
-                                     label5, label6, label7, label8]
+                                     label5, label6, label7, label8, label9, label10, label11, label12, label13, label14]
         
-        control.confData(filter:  self.filter)
+        control.confData(filter:  self.filter as AnyObject)
+        let labelPage = UILabel()
+        labelPage.text = String(control.pageNumber)
+        // longTitleLabel.font = ................
+        labelPage.sizeToFit()
+        labelPage.textColor = UIColor.white
+        labelPage.textAlignment = NSTextAlignment.left
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: labelPage)
         //  For Debugees use: print (control.dataSet.count)
         setTextView(labelList: labelList, textViewlist: textViewList)
-        setIntroText(num: self.filter)
+        heightConstraint.constant = mainViewHeight
+        // setIntroText(filter: self.filter )
+        /*
+        if (filter as? == 46) {
+            print (control.dataSet)
+            print (control.dataSet.count)
+        } */
 
         // Do any additional setup after loading the view.
     }
@@ -80,20 +135,23 @@ class ThirdViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    func setIntroText(num: Int) {
-        let Dawng = [96, 139, 179, 190, 248, 250, 303, 377, 468, 476]
-        let Siam = [46, 49]
+    /*
+    func setIntroText(filter: AnyObject) {
         
-        if Dawng.contains(num) {
-            IntroText.text = "Dawngtawina:"
-        } else if (Siam.contains(num)) {
-            IntroText.text = "Simpipa:"
-        } else {
-            IntroText.text = "     "
+        if let intFilter = filter as? Int {
+            if (text.Dawng.contains(intFilter)) {
+                IntroText.text = "Dawngtawina:"
+                }
+                else if (text.Siam.contains(intFilter)) {
+                    IntroText.text = "Simpipa:"
+        } else if let strfilter = filter as? String {
+                text.extracFilterArray()
+                if (text.filterZonolna)
+            
         }
+        
     }
-    
+    */
     func setTextView(labelList: [UILabel], textViewlist : [UITextView]) {
         
         var countLabelList = labelList.count
@@ -120,24 +178,26 @@ class ThirdViewController: UIViewController {
         /* -- End Here -- */
         
         var countText = 1
-        for textView in textViewlist {
+        for (textView, label) in zip(textViewlist, labelList) {
             // var num = 1
             textView.text = control.dataSet[countText]
+            textView.font = UIFont(name: "Verdana", size : 16)
+            label.font = UIFont(name: "Verdana", size : 16)
             countText += 1
+            setUIViewHeight(textView)
             if (countText > (control.dataSet.count-1) ){
                 break
             }
         }
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    func setUIViewHeight(_ txtView : UITextView) {
+        txtView.sizeToFit()
+        mainViewHeight += txtView.frame.height + CGFloat(3)
+        // print (mainViewHeight)
+        
     }
-    */
-
 }
+
+
+   

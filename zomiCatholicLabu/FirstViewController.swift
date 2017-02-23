@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class FirstViewController: UIViewController {
     
@@ -38,6 +39,16 @@ class FirstViewController: UIViewController {
     
     @IBOutlet weak var verse10: UITextView!
     
+    @IBOutlet weak var verse11: UITextView!
+    
+    @IBOutlet weak var verse12: UITextView!
+    
+    @IBOutlet weak var verse13: UITextView!
+    
+    @IBOutlet weak var verse14: UITextView!
+    
+    // @IBOutlet weak var verse15: UITextView!
+    
     /* UITextView ended */
     
     // UILabel started here 
@@ -64,34 +75,75 @@ class FirstViewController: UIViewController {
     
     @IBOutlet weak var label10: UILabel!
     
-    // UILabel stop here
+    @IBOutlet weak var label11: UILabel!
     
-    // var filter = String()
+    @IBOutlet weak var label12: UILabel!
     
-    // var control = controlSQLData()
+    @IBOutlet weak var label13: UILabel!
     
-    var filter = Int()
+    @IBOutlet weak var label14: UILabel!
+    
+
+    
+    var filter : AnyObject? = nil
+    
     var control = controlSQLData()
     
-    @IBAction func btnBack(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-        control.dataSet.removeAll()}
+    var mainViewHeight = CGFloat(160)
+
+    @IBOutlet weak var UIView: UIView!
+    
+    @IBOutlet weak var heightConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var bannerView: GADBannerView!
+
+
+
+    
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("Google Mobile Ads SDK version: " + GADRequest.sdkVersion())
+        
+        let request = GADRequest()
+        request.testDevices = ["DDC9C4A4-D8B5-47DF-8188-C62230EA2B9B", "8e4cb42e8cc98ebf72d9664bacc860e582c36fa8"]
+        
+        bannerView.adUnitID = "ca-app-pub-3325489361196839/6574558703"
+        bannerView.rootViewController = self
+        bannerView.load(request)
+
+    
+
+        // print (verse1.contentSize)
+        
+        // self.scrollView.contentSize = contentRec.size
         let textViewList : [UITextView] = [key, verse1, chorus, verse2, verse3, verse4,
-                                           verse5, verse6, verse7, verse8, verse9, verse10]
+                                           verse5, verse6, verse7, verse8, verse9, verse10, verse11, verse12, verse13, verse14]
         
         let labelList : [UILabel] = [label1, sakkikLabel, label2, label3, label4,
-                                     label5, label6, label7, label8, label9, label10]
+                                     label5, label6, label7, label8, label9, label10, label11, label12, label13, label14]
     
-        control.confData(filter:  self.filter)
-        //  For Debugees use: print (control.dataSet.count)
+        control.confData(filter:  self.filter as AnyObject)
+        let labelPage = UILabel()
+        labelPage.text = String(control.pageNumber)
+        // longTitleLabel.font = ................
+        labelPage.sizeToFit()
+        labelPage.textColor = UIColor.white
+        labelPage.textAlignment = NSTextAlignment.left
+        
+        
+        
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: labelPage)
+        //  For Debuges use: print (control.dataSet.count)
         setTextView(labelList: labelList, textViewlist: textViewList)
+        heightConstraint.constant = mainViewHeight
+        // verse1.sizeToFit()
+        // print (verse1.contentSize)
     
-     
-       
+
         }
     
         // Do any additional setup after loading the view.
@@ -112,8 +164,8 @@ class FirstViewController: UIViewController {
         let reversetextList = textViewlist.reversed()
         
         for (label, text)in zip(reverseLabelList, reversetextList) {
-            label.isHidden = true
-            text.isHidden = true
+            label.removeFromSuperview()
+            text.removeFromSuperview()
             countLabelList -= 1
             counttextList -= 1
             if (countLabelList < (control.dataSet.count-1) || counttextList < (control.dataSet.count-1)) {
@@ -129,14 +181,25 @@ class FirstViewController: UIViewController {
         /* -- End Here -- */
         
         var countText = 1
-        for textView in textViewlist {
+        for (textView, label) in zip(textViewlist, labelList) {
             // var num = 1
             textView.text = control.dataSet[countText]
+            textView.font = UIFont(name: "Verdana", size : 16)
+            label.font = UIFont(name: "Verdana", size : 16)
             countText += 1
+            setUIViewHeight(textView)
+            
             if (countText > (control.dataSet.count-1) ){
                 break
             }
         }
+    }
+    
+    func setUIViewHeight(_ txtView : UITextView) {
+        txtView.sizeToFit()
+        mainViewHeight += txtView.frame.height + CGFloat(6)
+        // print (mainViewHeihgt)
+        
     }
     
 

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Pods-zomiCatholicLabu.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,7 +32,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>00103D6C821BE85971C563025527BA5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26DBE7EE3E73807370A9B031D1CD77B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3529C0D110AF27B8CF92A4DA6E304BF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>783BCBDBA1181781A7D9BB4D1DDFB032</key>
 		<dict>
 			<key>primary</key>
 			<true/>

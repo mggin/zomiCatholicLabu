@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zomiCatholicLabu/ViewController.swift"
-            timestampString = "508568409.243932"
+            timestampString = "509481780.173742"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zomiCatholicLabu/ViewController.swift"
-            timestampString = "508568409.243932"
+            timestampString = "509481780.173742"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -105,11 +105,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zomiCatholicLabu/ZONOLNATableView.swift"
-            timestampString = "508138710.48218"
+            timestampString = "509169340.438642"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "zomiCatholicLabu/ThirdViewController.swift"
+            timestampString = "509248575.973181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "ThirdViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "zomiCatholicLabu/ThirdViewController.swift"
+            timestampString = "509248575.973181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -121,11 +153,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zomiCatholicLabu/controlSQLData.swift"
-            timestampString = "508480774.918483"
+            timestampString = "508819687.555529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "confData(filter:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -136,14 +168,76 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "zomiCatholicLabu/ThirdViewController.swift"
-            timestampString = "508568409.243932"
+            filePath = "zomiCatholicLabu/FirstViewController.swift"
+            timestampString = "509481780.173742"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "setIntroText(num:)"
-            landmarkType = "7">
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "FirstViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zomiCatholicLabu.FirstViewController.filter.getter : Swift.Int"
+                  moduleName = "zomiCatholicLabu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mggin/Desktop/zomiCatholicLabu/zomiCatholicLabu/FirstViewController.swift"
+                  timestampString = "508634849.907905"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zomiCatholicLabu.FirstViewController.filter.setter : Swift.Int"
+                  moduleName = "zomiCatholicLabu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mggin/Desktop/zomiCatholicLabu/zomiCatholicLabu/FirstViewController.swift"
+                  timestampString = "508634849.911831"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zomiCatholicLabu.FirstViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; zomiCatholicLabu.FirstViewController"
+                  moduleName = "zomiCatholicLabu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mggin/Desktop/zomiCatholicLabu/zomiCatholicLabu/FirstViewController.swift"
+                  timestampString = "508634849.91532"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "1608">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zomiCatholicLabu.FirstViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;zomiCatholicLabu.FirstViewController&gt;"
+                  moduleName = "zomiCatholicLabu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mggin/Desktop/zomiCatholicLabu/zomiCatholicLabu/FirstViewController.swift"
+                  timestampString = "508634849.919152"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "1548">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -153,12 +247,123 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zomiCatholicLabu/ThirdViewController.swift"
-            timestampString = "508568135.930451"
+            timestampString = "509248575.973181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "ThirdViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "zomiCatholicLabu/ViewController.swift"
+            timestampString = "509481780.173742"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "zomiCatholicLabu/FirstViewController.swift"
+            timestampString = "509481780.173742"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "FirstViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zomiCatholicLabu.FirstViewController.label4.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "zomiCatholicLabu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mggin/Desktop/zomiCatholicLabu/zomiCatholicLabu/FirstViewController.swift"
+                  timestampString = "508742590.416424"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zomiCatholicLabu.FirstViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; zomiCatholicLabu.FirstViewController"
+                  moduleName = "zomiCatholicLabu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mggin/Desktop/zomiCatholicLabu/zomiCatholicLabu/FirstViewController.swift"
+                  timestampString = "508742590.421205"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "1497">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zomiCatholicLabu.FirstViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;zomiCatholicLabu.FirstViewController&gt;"
+                  moduleName = "zomiCatholicLabu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mggin/Desktop/zomiCatholicLabu/zomiCatholicLabu/FirstViewController.swift"
+                  timestampString = "508742590.429962"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "1393">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "zomiCatholicLabu/tableViewArray.swift"
+            timestampString = "509210808.214821"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "latomnoArrayFilter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "zomiCatholicLabu/AppDelegate.swift"
+            timestampString = "509484952.444338"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
