@@ -201,8 +201,4 @@ class FirstViewController: UIViewController {
         // print (mainViewHeihgt)
         
     }
-    
-
-   
-
 }

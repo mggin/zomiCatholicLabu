@@ -149,12 +149,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             if (text.thirdViewFilterListInt.contains(index)) {
                 // print ("Main Third Segue if Search Active")
                 performSegue(withIdentifier: "MainThird", sender: self)
-                // searchControl.searchBar.isHidden =
             } else if (text.secondViewFilterListInt.contains(index)) {
                 // print ("Main Second Segue if Search Active")
                 performSegue(withIdentifier: "MainSecond", sender: self )
+            }else if (index == 47){
+                performSegue(withIdentifier: "thuSegue", sender: self)
             } else {
-            
                 performSegue(withIdentifier: "MainFirst", sender: self)
                 
             }
@@ -172,6 +172,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             } else if (text.secondViewFilterListInt.contains(index)) {
                 // print ("Main Second Segue")
                 performSegue(withIdentifier: "MainSecond", sender: self )
+            } else if (index == 47) {
+                performSegue(withIdentifier: "thuSegue", sender: self)
             } else {
                 // print ("Main First Segue")
                 performSegue(withIdentifier: "MainFirst", sender: self)
@@ -187,7 +189,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         else if (segmentOut.selectedSegmentIndex == 3){
             // print ("To Thungetna")
+            let num = text.thungetnaArray[(indexPath.row)]
+            print ("jjjj\(num)")
+            if (num == 596) {
+                // print ("Show Error")
+                performSegue(withIdentifier: "singSegue", sender: self)
+            } else {
             performSegue(withIdentifier: "prayerSegue", sender: self)
+            }
         }
             
             else {
@@ -201,8 +210,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // print ("\(indexPath.row)")
         var selectedOut = String()
         var numOut = Int()
-        // _ = segue.identifier
-        print ("ill")
         if (self.searchControl.isActive) {
             let indexPath = self.tableView.indexPathForSelectedRow
             selectedOut = filter[(indexPath?.row)!]
@@ -218,6 +225,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     third?.filter = numOut as AnyObject?
                     searchControl.isActive = false
                     // print ("Third View Controller")
+                } else if (numOut == 47) {
+                    let fourth = segue.destination as? PrayerViewController
+                    fourth?.filter = numOut as AnyObject?
+                    searchControl.isActive = false
                 } else {
                     let first =  segue.destination as? FirstViewController
                     // searchControl.isActive = false
@@ -238,6 +249,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 let second =  segue.destination as? SecondViewController
                 // print ("Third View Controller")
                 second?.filter = numOut as AnyObject?
+            }else if (numOut == 47) {
+                let fourth = segue.destination as? PrayerViewController
+                fourth?.filter = numOut as AnyObject?
             } else {
                 let first =  segue.destination as? FirstViewController
                 first?.filter = numOut as AnyObject
@@ -259,7 +273,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             */
         
             latomno?.filter = numOut as AnyObject
-            // print (latomno?.filter as? String)
             
         }
         else if (segmentOut.selectedSegmentIndex == 2) {
@@ -271,7 +284,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             zonolna?.index = (indexPath?.row)!
         }
         else if (segmentOut.selectedSegmentIndex == 3) {
-            text.latomnoArrayFilter()
+            
             let indexPath = self.tableView.indexPathForSelectedRow
             numOut = text.thungetnaArray[(indexPath?.row)!]
             let thungetna = segue.destination as? PrayerViewController
@@ -281,7 +294,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         else {
             print ("else ")
         }
-    
     
     }
 

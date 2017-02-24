@@ -40,12 +40,14 @@
 		001776A01E49072E00E56017 /* THUUMNA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776861E49072E00E56017 /* THUUMNA.txt */; };
 		001776A11E49072E00E56017 /* TOTHUM_PASIAN_KHAT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776871E49072E00E56017 /* TOTHUM_PASIAN_KHAT.txt */; };
 		001776A21E49072E00E56017 /* ZEHTAN_HUN.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001776881E49072E00E56017 /* ZEHTAN_HUN.txt */; };
+		001BC8541E5F767F0089D381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001BC8531E5F767F0089D381 /* Assets.xcassets */; };
+		001BC85E1E5FE72D0089D381 /* CrossViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BC85D1E5FE72D0089D381 /* CrossViewController.swift */; };
+		001BC8601E5FE7A40089D381 /* SingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BC85F1E5FE7A40089D381 /* SingTableViewController.swift */; };
 		0026DD141E4F9A9E000A6910 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026DD131E4F9A9E000A6910 /* SecondViewController.swift */; };
 		005D101E1E5E1F83006B4C67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 005D101D1E5E1F83006B4C67 /* GoogleService-Info.plist */; };
 		006188B21E425A9600BE0882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188B11E425A9600BE0882 /* AppDelegate.swift */; };
 		006188B41E425A9600BE0882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188B31E425A9600BE0882 /* ViewController.swift */; };
 		006188B71E425A9600BE0882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006188B51E425A9600BE0882 /* Main.storyboard */; };
-		006188B91E425A9600BE0882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006188B81E425A9600BE0882 /* Assets.xcassets */; };
 		006188BC1E425A9600BE0882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006188BA1E425A9600BE0882 /* LaunchScreen.storyboard */; };
 		006188C71E425A9700BE0882 /* zomiCatholicLabuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188C61E425A9700BE0882 /* zomiCatholicLabuTests.swift */; };
 		006188D21E425A9700BE0882 /* zomiCatholicLabuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006188D11E425A9700BE0882 /* zomiCatholicLabuUITests.swift */; };
@@ -110,13 +112,15 @@
 		001776861E49072E00E56017 /* THUUMNA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = THUUMNA.txt; path = "Text Files/THUUMNA.txt"; sourceTree = SOURCE_ROOT; };
 		001776871E49072E00E56017 /* TOTHUM_PASIAN_KHAT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TOTHUM_PASIAN_KHAT.txt; path = "Text Files/TOTHUM_PASIAN_KHAT.txt"; sourceTree = SOURCE_ROOT; };
 		001776881E49072E00E56017 /* ZEHTAN_HUN.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZEHTAN_HUN.txt; path = "Text Files/ZEHTAN_HUN.txt"; sourceTree = SOURCE_ROOT; };
+		001BC8531E5F767F0089D381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001BC85D1E5FE72D0089D381 /* CrossViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossViewController.swift; sourceTree = "<group>"; };
+		001BC85F1E5FE7A40089D381 /* SingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingTableViewController.swift; sourceTree = "<group>"; };
 		0026DD131E4F9A9E000A6910 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		005D101D1E5E1F83006B4C67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		006188AE1E425A9600BE0882 /* zomiCatholicLabu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zomiCatholicLabu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		006188B11E425A9600BE0882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		006188B31E425A9600BE0882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		006188B61E425A9600BE0882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		006188B81E425A9600BE0882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		006188BB1E425A9600BE0882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		006188BD1E425A9600BE0882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		006188C21E425A9700BE0882 /* zomiCatholicLabuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zomiCatholicLabuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,6 +232,7 @@
 		006188B01E425A9600BE0882 /* zomiCatholicLabu */ = {
 			isa = PBXGroup;
 			children = (
+				001BC8531E5F767F0089D381 /* Assets.xcassets */,
 				006188B11E425A9600BE0882 /* AppDelegate.swift */,
 				006188E11E42602600BE0882 /* controlSQLData.swift */,
 				006188B31E425A9600BE0882 /* ViewController.swift */,
@@ -235,10 +240,11 @@
 				0026DD131E4F9A9E000A6910 /* SecondViewController.swift */,
 				001004531E5014BC0023ED96 /* ThirdViewController.swift */,
 				006188B51E425A9600BE0882 /* Main.storyboard */,
+				001BC85D1E5FE72D0089D381 /* CrossViewController.swift */,
+				001BC85F1E5FE7A40089D381 /* SingTableViewController.swift */,
 				00B1793F1E4597250073B5D0 /* ZONOLNATableView.swift */,
 				00B1792F1E43C4EA0073B5D0 /* tableViewArray.swift */,
 				000F3A311E5AB5020030F74A /* PrayerViewController.swift */,
-				006188B81E425A9600BE0882 /* Assets.xcassets */,
 				006188BA1E425A9600BE0882 /* LaunchScreen.storyboard */,
 				006188BD1E425A9600BE0882 /* Info.plist */,
 				005D101D1E5E1F83006B4C67 /* GoogleService-Info.plist */,
@@ -440,7 +446,6 @@
 				001004581E52C2270023ED96 /* SecondNameFilter.txt in Resources */,
 				0017768F1E49072E00E56017 /* HONGPAI_KIK_NANG.txt in Resources */,
 				001776A21E49072E00E56017 /* ZEHTAN_HUN.txt in Resources */,
-				006188B91E425A9600BE0882 /* Assets.xcassets in Resources */,
 				0017768B1E49072E00E56017 /* BIAKNA_LEH_NGETNA.txt in Resources */,
 				0017766D1E4906D700E56017 /* ZONOLNA.txt in Resources */,
 				0017766A1E4906D700E56017 /* LABU.txt in Resources */,
@@ -461,6 +466,7 @@
 				0017769B1E49072E00E56017 /* SIANG_THO_PUMPI_BIAKNA.txt in Resources */,
 				0017766C1E4906D700E56017 /* THUNGETNA.txt in Resources */,
 				001776981E49072E00E56017 /* NU_MARIA.txt in Resources */,
+				001BC8541E5F767F0089D381 /* Assets.xcassets in Resources */,
 				0017768A1E49072E00E56017 /* BIAK_AP_NA.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -626,8 +632,10 @@
 			files = (
 				006188B41E425A9600BE0882 /* ViewController.swift in Sources */,
 				006188B21E425A9600BE0882 /* AppDelegate.swift in Sources */,
+				001BC8601E5FE7A40089D381 /* SingTableViewController.swift in Sources */,
 				006188E21E42602600BE0882 /* controlSQLData.swift in Sources */,
 				00B179301E43C4EA0073B5D0 /* tableViewArray.swift in Sources */,
+				001BC85E1E5FE72D0089D381 /* CrossViewController.swift in Sources */,
 				0026DD141E4F9A9E000A6910 /* SecondViewController.swift in Sources */,
 				006188E61E428FA500BE0882 /* FirstViewController.swift in Sources */,
 				000F3A321E5AB5020030F74A /* PrayerViewController.swift in Sources */,
